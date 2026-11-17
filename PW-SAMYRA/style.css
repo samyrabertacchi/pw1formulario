@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    padding-top: 70px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.menu {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo span {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+}
+
+.logo b {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #0d2a5c;
+}
+
+.logo small {
+    font-size: 10px;
+    letter-spacing: 6px;
+    color: #2f6fdb;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #0d2a5c;
+}
+
+.nav-link:hover {
+    color: #2f6fdb;
+}
+
+.banner {
+    background-color: #0d2a5c;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.banner h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.banner .btn-light {
+    color: #0d2a5c;
+    font-weight: bold;
+}
+
+
+.secao {
+    padding: 70px 0;
+}
+
+.fundo-azul-claro {
+    background-color: #eaf1fc;
+}
+
+.titulo {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #0d2a5c;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.caixa {
+    border: 1px solid #d5e2f7;
+    border-radius: 6px;
+    padding: 25px 20px;
+    height: 100%;
+    background-color: #fff;
+     transition: 0.3s;
+}
+
+.caixa:hover {
+ transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(9, 3, 130, 0.3);
+
+}
+
+.caixa h5 {
+    color: #0d2a5c;
+}
+
+.caixa p {
+    margin: 0;
+    color: #666;
+}
+
+.formulario {
+    border: 1px solid #d5e2f7;
+    border-radius: 8px;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.btn-primary {
+    background-color: #0d2a5c;
+    border-color: #0d2a5c;
+}
+
+.btn-primary:hover {
+    background-color: #2f6fdb;
+    border-color: #2f6fdb;
+}
+
+
+.rodape {
+    background-color: #0d2a5c;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.rodape p {
+    margin: 0;
+}
+
+.logo {
+    width: 200px;
+}
